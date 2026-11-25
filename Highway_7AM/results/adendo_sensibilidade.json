@@ -1,0 +1,15 @@
+{
+  "feito_em": "2026-11-17T18:53:13",
+  "natureza": "analise de sensibilidade, fora do protocolo congelado, decidida depois de ver os resultados",
+  "pergunta": "B e C estavam subtreinados pela parada antecipada (paciencia 5)?",
+  "mudanca": {
+    "paciencia": "5 -> 15",
+    "max_epocas": "100 -> 200",
+    "modelos": [
+      "B",
+      "C"
+    ]
+  },
+  "seeds": "1 a 10",
+  "resto_identico": "dados, atributos, arquiteturas, lr, lotes, limiar, Test, ataques, seeds"
+}

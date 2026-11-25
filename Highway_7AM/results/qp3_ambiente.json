@@ -1,0 +1,9 @@
+{
+  "data": "2026-11-17T18:18:50",
+  "torch": "2.14.1+cu132",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "threads_cpu": 1,
+  "orcamento_ms": 100.0,
+  "repeticoes": 30,
+  "grupos_por_repeticao": 300
+}

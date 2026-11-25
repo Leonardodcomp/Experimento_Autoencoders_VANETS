@@ -1,0 +1,42 @@
+{
+  "congelado_em": "2026-11-12T10:55:00",
+  "ambiente": {
+    "torch": "2.14.1+cu132",
+    "dispositivo": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  },
+  "protocolo": {
+    "T": 5,
+    "raio_m": 100.0,
+    "latente": 6,
+    "oculto": 32,
+    "lr": 0.001,
+    "lote_mensagens_A": 4096,
+    "lote_grupos_B": 32,
+    "max_epocas": 100,
+    "paciencia": 5,
+    "percentil_limiar": 0.95,
+    "modelos": [
+      "A",
+      "Bp",
+      "B"
+    ],
+    "ataques": [
+      "constantPositionOffset",
+      "constantSpeedOffset",
+      "reversedHeading",
+      "feignedBraking",
+      "timeDelayAttack",
+      "dosAttack",
+      "trafficCongestionSybil",
+      "dataReplay"
+    ],
+    "conjunto_de_avaliacao": "Test",
+    "codigo": {
+      "nodes.py": "b167ae9daf08dcec",
+      "graphdata.py": "72d80ec166ac7658",
+      "models.py": "fdb84132bcc3b2d5",
+      "run.py": "ca4b88ac3b6f716c",
+      "run_all.py": "7703968420e4530c"
+    }
+  }
+}

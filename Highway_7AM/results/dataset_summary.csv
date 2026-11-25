@@ -1,0 +1,4 @@
+subconjunto,conjunto,arquivos,mensagens,attacker_0,attacker_1,sem_attacker,pct_ataque
+baseline,Train,562,1380604,0,0,1380604,
+baseline,Validation,222,556916,0,0,556916,
+baseline,Test,504,3011370,0,0,3011370,

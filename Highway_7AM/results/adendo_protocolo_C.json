@@ -1,0 +1,36 @@
+{
+  "adendo_em": "2026-11-17T16:27:33",
+  "motivo": "Grupo C (GNN so espaco) acrescentado para completar o desenho 2 x 2.",
+  "decidido_depois_de_ver": "os resultados de A, B' e B no Test (90 execucoes)",
+  "protocolo_original_congelado_em": "2026-11-12T10:55:00",
+  "codigo_original_inalterado": {
+    "nodes.py": "b167ae9daf08dcec",
+    "graphdata.py": "72d80ec166ac7658",
+    "models.py": "fdb84132bcc3b2d5",
+    "run.py": "ca4b88ac3b6f716c",
+    "run_all.py": "7703968420e4530c"
+  },
+  "codigo_do_adendo": {
+    "models_c.py": "ae4562dbe4aff830",
+    "run_c.py": "b2bf0afeac7174fe"
+  },
+  "parametros": {
+    "seeds": "1 a 30",
+    "ataques": [
+      "constantPositionOffset",
+      "constantSpeedOffset",
+      "reversedHeading",
+      "feignedBraking",
+      "timeDelayAttack",
+      "dosAttack",
+      "trafficCongestionSybil",
+      "dataReplay"
+    ],
+    "conjunto_de_avaliacao": "Test",
+    "T": 5,
+    "raio_m": 100.0,
+    "oculto": 32,
+    "latente": 6,
+    "lr": 0.001
+  }
+}
