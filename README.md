@@ -114,4 +114,4 @@ O código e o texto foram elaborados com auxílio do Claude (Anthropic). As deci
 
 ## Contato
 
-Leonardo Souza Silva, PPGCC/UFS.
+Leonardo Souza Silva, PROCC/UFS.
